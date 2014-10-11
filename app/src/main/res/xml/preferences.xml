@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="enable_sound"
+        android:title="@string/enable_sound"
+        android:summary="@string/enable_sound_summ"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="enable_vib"
+        android:title="@string/enable_vib"
+        android:summary="@string/enable_vib_summ"
+        android:defaultValue="true" />
+</PreferenceScreen>
